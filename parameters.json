@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "subscriptionId": {
-            "value": ${{ secrets.SUBSCRIPTIONID }}
+            "value": "[subscription().subscriptionId]"
         },
         "name": {
             "value": "app-python-sample"
