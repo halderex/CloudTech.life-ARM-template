@@ -1,0 +1,1 @@
+# CloudTech.life-ARM-template
