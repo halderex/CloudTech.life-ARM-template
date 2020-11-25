@@ -39,4 +39,4 @@ jobs:
           region: westeurope
           template: template.json
           parameters: parameters.json
-          deploymentName: github-app-python-sample-deployment
+          deploymentName: github-deployment-${{ steps.date.outputs.date }}
