@@ -34,7 +34,7 @@ jobs:
       - uses: azure/arm-deploy@v1
         id: deploy
         with:
-          subscriptionId: c929d8c2-7bbd-4a86-bb29-574f17fe241a
+          subscriptionId: ${{ secrets.SUBSCRIPTIONID }}
           resourceGroupName: rg-mywebapps
           region: westeurope
           template: template.json
