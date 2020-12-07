@@ -41,5 +41,11 @@
                 "clientAffinityEnabled": false
             }
         }
-    ]
+    ],
+    "outputs": {
+        "name": {
+            "type": "string",
+            "value": "[parameters('name')]"
+        }
+    }
 }
