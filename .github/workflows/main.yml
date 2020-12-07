@@ -45,6 +45,6 @@ jobs:
           subscriptionId: ${{ secrets.SUBSCRIPTIONID }}
           resourceGroupName: rg-mywebapps
           region: westeurope
-          template: template.json
-          parameters: parameters.json
+          template: infrastructure/template.json
+          parameters: infrastructure/parameters.json
           deploymentName: github-deployment-${{ steps.time.outputs.time }}
